@@ -1,0 +1,88 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container box */
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading */
+#mainHeading {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field */
+#userInput {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#userInput:focus {
+    border-color: #007bff;
+}
+
+/* Buttons */
+button {
+    margin: 8px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Individual button colors */
+#changeTextBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#bgColorBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#fontSizeBtn {
+    background-color: #ffc107;
+    color: black;
+}
+
+#toggleBtn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Hover effect */
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
